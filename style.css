@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: honeydew;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container .gameWrapper {
+    flex-wrap: wrap;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 5px lightblue;
+    background-color: white;
+    gap: 5px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.container .gameWrapper .box {
+    width: 10vh;
+    height: 10vh;
+    flex-flow: row wrap;
+    border-radius: 15px;
+}
+
+.container .button {
+    height: fit-content;
+    width: fit-content;
+    align-self: center;
+    border-radius: 5px;
+    border: solid 1px rgb(161, 156, 156);
+}
